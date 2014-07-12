@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="FullCalendarDemo.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="FullCalendar/CSS/fullcalendar.css" rel="Stylesheet" />
+    <link href="FullCalendar/CSS/fullcalendar.print.css" media='print'  rel="Stylesheet" />
+    <%--<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">--%>
+    <link rel="stylesheet" href="Styles/jquery-ui.css" />
+    <script src="FullCalendar/Scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+   <%-- <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js" type="text/javascript"></script>--%>
+    <script src="FullCalendar/Scripts/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
+   
+    <script src="FullCalendar/Scripts/fullcalendar.min.js" type="text/javascript"></script>
+   
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    My Calendar Application
+                </h1>
+            </div>
+           
+            <div class="clear hideSkiplink">
+                
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>

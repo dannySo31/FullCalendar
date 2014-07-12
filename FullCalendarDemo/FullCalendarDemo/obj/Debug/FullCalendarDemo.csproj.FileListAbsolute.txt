@@ -1,0 +1,5 @@
+D:\Visual Studio 2010\FullCalendarDemo\FullCalendarDemo\bin\FullCalendarDemo.dll
+D:\Visual Studio 2010\FullCalendarDemo\FullCalendarDemo\bin\FullCalendarDemo.pdb
+D:\Visual Studio 2010\FullCalendarDemo\FullCalendarDemo\obj\Debug\FullCalendarDemo.dll
+D:\Visual Studio 2010\FullCalendarDemo\FullCalendarDemo\obj\Debug\FullCalendarDemo.pdb
+D:\Visual Studio 2010\FullCalendarDemo\FullCalendarDemo\obj\Debug\FullCalendarDemo.csprojResolveAssemblyReference.cache
